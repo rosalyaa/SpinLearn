@@ -86,22 +86,33 @@ SpinLearn/
 
 <h2>5. How It Works:</h2>
 - The user selects the Tech category from the dropdown.
+<br>
 - Clicking Spin Topic randomly displays a technical concept.
+<br>
 - A built-in study timer helps users focus while learning.
+<br>
 - Clicking Explain reveals the topic’s explanation, example, advantages, and limitations.
+<br>
 - Users can mark topics as Learned, and the progress bar tracks completed topics.
+<br>
 - The Browse Topics section allows users to explore all available concepts without spinning.
 
 
 
 <h2>6. Future Improvements</h2>
-* User Authentication – Allow users to create accounts and save their learning progress.
-* Difficulty Levels – Categorize topics into Beginner, Intermediate, and Advanced.
-* Quiz Mode – Add quizzes after each topic to reinforce learning.
-* Bookmarks – Let users save favorite topics for later revision.
-* More Categories – Expand beyond Tech with topics like Cybersecurity, Cloud Computing, and Data Science.
-* Learning Streaks – Motivate users with daily learning streaks and achievements.
-* AI-Powered Explanations – Generate personalized explanations and examples using AI.
+* User Authentication: Allow users to create accounts and save their learning progress.
+<br>
+* Difficulty Levels: Categorize topics into Beginner, Intermediate, and Advanced.
+<br>
+* Quiz Mode: Add quizzes after each topic to reinforce learning.
+<br>
+* Bookmarks: Let users save favorite topics for later revision.
+<br>
+* More Categories: Expand beyond Tech with topics like Cybersecurity, Cloud Computing, and Data Science.
+<br>
+* Learning Streaks: Motivate users with daily learning streaks and achievements.
+<br>
+* AI-Powered Explanations: Generate personalized explanations and examples using AI.
 
 
 <h2>7. Learning Outcomes</h2>
