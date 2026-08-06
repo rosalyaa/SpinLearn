@@ -85,7 +85,6 @@ SpinLearn/
 
 
 <h2>5. How It Works:</h2>
-
 - The user selects the Tech category from the dropdown.
 <br>
 - Clicking Spin Topic randomly displays a technical concept.
@@ -101,9 +100,8 @@ SpinLearn/
 
 
 <h2>6. Future Improvements</h2>
-
 - User Authentication: Allow users to create accounts and save their learning progress.
-<br>
+  <br>
 - Difficulty Levels: Categorize topics into Beginner, Intermediate, and Advanced.
 <br>
 - Quiz Mode: Add quizzes after each topic to reinforce learning.
