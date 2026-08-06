@@ -1,72 +1,47 @@
-import {
-  FiBook,
-  FiCode,
-  FiCheckCircle,
-  FiAlertCircle,
-} from "react-icons/fi";
-
 function ExplanationCard({ topic }) {
+
+  console.log("Topic received:", topic);   // <-- Add this line
 
   if (!topic) return null;
 
   return (
-
-    <div className="info-card fade">
+    <div className="info-card">
 
       <div className="section">
-
-        <h2>
-          <FiBook />
-          Explanation
-        </h2>
-
+        <h2>Explanation</h2>
         <p>{topic.explanation}</p>
-
       </div>
 
-      <div className="section">
+      {topic.example && (
+        <div className="section">
+          <h2>Example</h2>
+          <p>{topic.example}</p>
+        </div>
+      )}
 
-        <h2>
-          <FiCode />
-          Example
-        </h2>
+      {topic.advantages && (
+        <div className="section">
+          <h2>Advantages</h2>
+          <ul>
+            {topic.advantages.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
 
-        <p>{topic.example}</p>
-
-      </div>
-
-      <div className="section">
-
-        <h2>
-          <FiCheckCircle />
-          advantages
-        </h2>
-
-        <ul>
-          {topic.advantages.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-
-      </div>
-
-      <div className="section">
-
-        <h2>
-          <FiAlertCircle />
-          limitations
-        </h2>
-
-        <ul>
-          {topic.limitations.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-
-      </div>
+      {topic.limitations && (
+        <div className="section">
+          <h2>Limitations</h2>
+          <ul>
+            {topic.limitations.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
 
     </div>
-
   );
 }
 

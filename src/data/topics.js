@@ -43,27 +43,6 @@ const topics = {
   ]
 },
 {
-  title: "Explainable AI (XAI)",
-
-  explanation:
-    "Explainable AI is the practice of designing artificial intelligence systems whose decisions can be understood by humans. It helps users identify the reasons behind an AI model's predictions and recommendations. Explainability increases trust, accountability, and confidence when AI is used in critical applications.",
-
-  example:
-    "A hospital uses an AI model to detect diseases from X-ray images. Instead of simply predicting that a patient has pneumonia, the AI also highlights the affected areas in the image and explains which features influenced the diagnosis.",
-
-  advantages: [
-    "Explainable AI increases user trust by providing understandable decisions.",
-    "It helps developers identify errors and improve AI models more effectively.",
-    "Organizations can better comply with regulations requiring transparent AI systems."
-  ],
-
-  limitations: [
-    "Adding explainability can increase the complexity of AI development.",
-    "Some highly accurate models are difficult to explain completely.",
-    "Providing explanations may slightly reduce the performance of certain AI models."
-  ]
-},
-{
   title: "Prompt Engineering",
 
   explanation:
@@ -84,53 +63,12 @@ const topics = {
     "Creating effective prompts sometimes requires experimentation and practice."
   ]
 },
+
 {
-  title: "Context Window",
+  title: "Large Language Model",
 
   explanation:
-    "A context window is the amount of information an AI model can remember and process at one time during a conversation or document analysis. A larger context window allows the model to understand longer discussions and maintain better continuity. If the context exceeds the limit, earlier information may be forgotten.",
-
-  example:
-    "While chatting with an AI about a research project, you provide several pages of notes. If the notes exceed the model's context window, it may forget details from the beginning of the conversation and focus only on the most recent information.",
-
-  advantages: [
-    "A larger context window enables AI to understand longer conversations more effectively.",
-    "It improves consistency when summarizing lengthy documents.",
-    "Users can provide more detailed instructions without splitting them into multiple prompts."
-  ],
-
-  limitations: [
-    "Very large context windows require greater computational resources.",
-    "Older information may still receive less attention than recent input.",
-    "Processing large contexts can increase response time."
-  ]
-},
-{
-  title: "Retrieval-Augmented Generation (RAG)",
-
-  explanation:
-    "Retrieval-Augmented Generation is an AI technique that combines a language model with an external knowledge source. Instead of relying only on its training data, the AI retrieves relevant information before generating a response. This approach improves accuracy and provides more up-to-date answers.",
-
-  example:
-    "A customer support chatbot first searches the company's latest documentation for information about a product. It then uses that information to generate an accurate response instead of relying only on previously learned knowledge.",
-
-  advantages: [
-    "RAG improves the accuracy of AI responses by using external information.",
-    "It allows AI systems to access updated knowledge without retraining the model.",
-    "The technique reduces the likelihood of AI hallucinations."
-  ],
-
-  limitations: [
-    "The quality of responses depends on the retrieved information.",
-    "Building an efficient retrieval system increases implementation complexity.",
-    "Searching external data may slightly increase response time."
-  ]
-},
-{
-  title: "Large Language Model (LLM)",
-
-  explanation:
-    "A Large Language Model (LLM) is an artificial intelligence model trained on massive amounts of text to understand and generate human language. It can answer questions, summarize documents, write code, and perform many language-related tasks. Popular examples include ChatGPT, Claude, Gemini, and Llama.",
+    "A Large Language Model(LLM) is an artificial intelligence model trained on massive amounts of text to understand and generate human language. It can answer questions, summarize documents, write code, and perform many language-related tasks. Popular examples include ChatGPT, Claude, Gemini, and Llama.",
 
   example:
     "A software developer asks an LLM to generate a Python function for sorting customer records. The model understands the request and produces working code within seconds, saving development time.",
@@ -147,27 +85,7 @@ const topics = {
     "They should not be treated as a replacement for expert human judgment."
   ]
 },
-{
-  title: "AI Agent",
 
-  explanation:
-    "An AI Agent is an intelligent system that can observe its environment, make decisions, and perform tasks with minimal human intervention. Unlike a chatbot that only responds to questions, an AI agent can plan actions and complete multi-step tasks. AI agents are becoming increasingly common in automation and productivity software.",
-
-  example:
-    "An AI travel assistant books flights, reserves hotels, compares prices, and creates an itinerary automatically after receiving a user's travel preferences.",
-
-  advantages: [
-    "AI agents automate repetitive tasks and save users significant time.",
-    "They can independently complete workflows involving multiple steps.",
-    "Businesses improve efficiency by reducing manual effort."
-  ],
-
-  limitations: [
-    "Poor planning by an AI agent may produce incorrect actions.",
-    "Complex agents require careful monitoring and testing.",
-    "Security and privacy become important when agents access sensitive information."
-  ]
-},
 {
   title: "Agentic Workflow",
 
@@ -190,7 +108,7 @@ const topics = {
   ]
 },
 {
-  title: "API (Application Programming Interface)",
+  title: "Application Programming Interface",
 
   explanation:
     "An API is a set of rules that allows different software applications to communicate with each other. APIs enable developers to access services without knowing how they are internally implemented. They are essential components of modern software development.",
@@ -294,27 +212,7 @@ const topics = {
     "Incorrect examples may confuse the model and reduce accuracy."
   ]
 },
-{
-  title: "Fine-Tuning",
 
-  explanation:
-    "Fine-tuning is the process of taking a pre-trained AI model and training it further on a smaller, specialized dataset. This helps the model perform better in a particular domain or task. Fine-tuning is commonly used to customize general AI models for business applications.",
-
-  example:
-    "A hospital fine-tunes a language model using medical documents so that it can answer healthcare-related questions more accurately than a general-purpose AI assistant.",
-
-  advantages: [
-    "Fine-tuning improves performance for specialized tasks.",
-    "Organizations can customize AI without training a model from scratch.",
-    "It often produces higher accuracy than using a generic model."
-  ],
-
-  limitations: [
-    "Fine-tuning requires additional computing resources and expertise.",
-    "Poor-quality training data may reduce model performance.",
-    "Updating the model regularly may become expensive."
-  ]
-},
 {
   title: "Vector Database",
 
@@ -336,27 +234,7 @@ const topics = {
     "Building efficient indexing systems can be technically challenging."
   ]
 },
-{
-  title: "Embeddings",
 
-  explanation:
-    "Embeddings are numerical representations of words, sentences, images, or other data that capture their meaning. AI models use embeddings to compare information based on similarity rather than exact matching. They are fundamental to semantic search and recommendation systems.",
-
-  example:
-    "A music streaming service converts songs into embeddings so it can recommend songs that are similar in style and mood, even if they have different titles or artists.",
-
-  advantages: [
-    "Embeddings allow AI to understand relationships between different pieces of information.",
-    "They improve search accuracy by focusing on meaning rather than keywords.",
-    "They support recommendation systems and intelligent document retrieval."
-  ],
-
-  limitations: [
-    "Generating embeddings for large datasets requires computational resources.",
-    "Poor-quality embeddings reduce search performance.",
-    "Updating embeddings regularly may increase maintenance costs."
-  ]
-},
 {
   title: "Synthetic Data",
 
@@ -421,10 +299,10 @@ const topics = {
   ]
 },
 {
-  title: "Retrieval-Augmented Generation (RAG)",
+  title: "Retrieval-Augmented Generation",
 
   explanation:
-    "Retrieval-Augmented Generation combines a language model with an external knowledge source before generating a response. Instead of relying only on its training data, the AI first retrieves relevant documents and then generates an answer based on that information. This greatly improves factual accuracy.",
+    "Retrieval-Augmented Generation(RAG) combines a language model with an external knowledge source before generating a response. Instead of relying only on its training data, the AI first retrieves relevant documents and then generates an answer based on that information. This greatly improves factual accuracy.",
 
   example:
     "A university chatbot receives a question about the latest admission deadline. Instead of guessing, it first searches the university database for the current deadline and then answers using the retrieved information.",
@@ -673,27 +551,7 @@ const topics = {
     "Developing reliable autonomous agents is challenging."
   ]
 },
-{
-  title: "Vector Database",
 
-  explanation:
-    "A vector database stores numerical vector representations called embeddings instead of traditional text records. These vectors allow AI systems to quickly find information with similar meanings instead of exact keyword matches. Vector databases are an essential part of Retrieval-Augmented Generation systems.",
-
-  example:
-    "When a user searches for 'wireless headphones', the vector database can also retrieve documents related to Bluetooth earbuds because both concepts are mathematically similar.",
-
-  advantages: [
-    "It enables highly accurate semantic search.",
-    "It supports AI recommendation systems effectively.",
-    "It retrieves relevant information much faster."
-  ],
-
-  limitations: [
-    "Large vector indexes consume significant storage.",
-    "Maintaining vector databases requires specialized tools.",
-    "Search quality depends on embedding quality."
-  ]
-},
 {
   title: "Quantization",
 
@@ -863,7 +721,7 @@ const topics = {
   ]
 },
 {
-  title: "Model Context Protocol (MCP)",
+  title: "Model Context Protocol",
 
   explanation:
     "Model Context Protocol, commonly called MCP, is a standard that allows AI models to securely communicate with external tools, databases, and applications. Instead of building separate integrations for every service, MCP provides a common communication method. It simplifies how AI assistants access external information.",
@@ -989,27 +847,6 @@ const topics = {
   ]
 },
 {
-  title: "Explainable AI (XAI)",
-
-  explanation:
-    "Explainable AI, often called XAI, focuses on making artificial intelligence decisions understandable to humans. Instead of producing answers without explanation, XAI provides reasons behind predictions so users can better trust and evaluate the results.",
-
-  example:
-    "A bank's loan approval system explains that an application was rejected because of insufficient income and poor credit history instead of simply saying 'Rejected.'",
-
-  advantages: [
-    "It improves transparency.",
-    "Users understand AI decisions better.",
-    "It increases trust in AI systems."
-  ],
-
-  limitations: [
-    "Highly accurate models are sometimes difficult to explain.",
-    "Providing explanations increases computational complexity.",
-    "Some explanations may still be difficult for users to understand."
-  ]
-},
-{
   title: "AI Safety",
 
   explanation:
@@ -1053,7 +890,725 @@ const topics = {
 },
 
 
+  ],
+  Physics:[
+    {
+  title: "Dark Matter",
+
+  explanation:
+    "Dark Matter is an invisible form of matter that does not emit, absorb, or reflect light, making it impossible to observe directly. Scientists know it exists because its gravitational effects influence the movement of galaxies and other cosmic objects. It is believed to make up about 27% of the universe.",
+
+  example:
+    "Astronomers noticed that galaxies rotate much faster than expected based on the visible stars alone. The extra gravitational force required to keep galaxies together is believed to come from Dark Matter.",
+
+  advantages: [
+    "Helps explain how galaxies remain stable.",
+    "Improves our understanding of the universe's structure.",
+    "Drives new discoveries in astrophysics and cosmology."
+  ],
+
+  limitations: [
+    "It has never been directly observed.",
+    "Its exact composition remains unknown.",
+    "Studying it requires expensive and advanced scientific experiments."
   ]
+},
+{
+  title: "Dark Energy",
+
+  explanation:
+    "Dark Energy is a mysterious form of energy that is believed to be responsible for the accelerating expansion of the universe. Unlike gravity, which pulls objects together, Dark Energy appears to push galaxies farther apart over time. Scientists estimate that Dark Energy makes up nearly 68% of the universe.",
+
+  example:
+    "Astronomers observed that distant galaxies are moving away from Earth faster than expected. This unexpected acceleration is attributed to the presence of Dark Energy acting throughout the universe.",
+
+  advantages: [
+    "Helps explain why the universe is expanding at an increasing rate.",
+    "Improves our understanding of the large-scale structure of the cosmos.",
+    "Encourages further research into fundamental physics and cosmology."
+  ],
+
+  limitations: [
+    "Its true nature remains completely unknown.",
+    "It cannot be observed directly with current technology.",
+    "Many theories exist, but none have been conclusively proven."
+  ]
+},
+{
+  title: "Event Horizon",
+
+  explanation:
+    "An Event Horizon is the invisible boundary surrounding a black hole beyond which nothing, not even light, can escape due to the extremely strong gravitational pull. Once an object crosses this boundary, it is permanently trapped inside the black hole.",
+
+  example:
+    "If a spacecraft accidentally crosses the event horizon of a black hole, it would never be able to return or send signals back to Earth.",
+
+  advantages: [
+    "Helps scientists understand black hole behavior.",
+    "Supports research in general relativity.",
+    "Provides insight into extreme gravitational environments."
+  ],
+
+  limitations: [
+    "Cannot be observed directly.",
+    "Its exact behavior is still under scientific investigation.",
+    "Studying it requires indirect observations."
+  ]
+},
+{
+  title: "Black Hole",
+
+  explanation:
+    "A Black Hole is a region in space where gravity is so powerful that nothing, including light, can escape. It forms when a massive star collapses under its own gravity after exhausting its nuclear fuel.",
+
+  example:
+    "The supermassive black hole Sagittarius A* lies at the center of the Milky Way galaxy and influences the motion of nearby stars.",
+
+  advantages: [
+    "Provides valuable information about gravity and spacetime.",
+    "Helps scientists test Einstein's theory of relativity.",
+    "Improves our understanding of galaxy formation."
+  ],
+
+  limitations: [
+    "Cannot be observed directly because they emit no light.",
+    "Their interiors remain unknown.",
+    "Extreme conditions make them difficult to study."
+  ]
+},
+{
+  title: "White Hole",
+
+  explanation:
+    "A White Hole is a hypothetical object that is considered the opposite of a black hole. While nothing can escape from a black hole, a white hole would allow matter and energy to exit but prevent anything from entering. No white hole has ever been observed.",
+
+  example:
+    "Some theoretical physics models suggest that a white hole could be connected to a black hole through a wormhole, although no evidence currently supports this idea.",
+
+  advantages: [
+    "Stimulates research into advanced theories of physics.",
+    "May help explain certain cosmological concepts.",
+    "Encourages exploration of spacetime theories."
+  ],
+
+  limitations: [
+    "No observational evidence exists.",
+    "Most scientists consider them purely theoretical.",
+    "Their existence remains unproven."
+  ]
+},
+{
+  title: "Wormhole",
+
+  explanation:
+    "A Wormhole is a theoretical tunnel connecting two distant points in space and time. According to Einstein's theory of relativity, wormholes may exist mathematically, but none have been discovered in reality.",
+
+  example:
+    "Science fiction movies often portray spacecraft using wormholes to travel instantly between distant galaxies.",
+
+  advantages: [
+    "Provides fascinating possibilities for space travel.",
+    "Supports research into spacetime geometry.",
+    "Inspires scientific and technological imagination."
+  ],
+
+  limitations: [
+    "No wormhole has been observed.",
+    "Current physics suggests they would be extremely unstable.",
+    "Practical travel through wormholes remains theoretical."
+  ]
+},
+{
+  title: "Singularity",
+
+  explanation:
+    "A Singularity is a point where matter is compressed into an infinitely small space with extremely high density and gravity. It is believed to exist at the center of a black hole, where the known laws of physics no longer fully apply.",
+
+  example:
+    "Scientists believe the center of every black hole contains a singularity where gravitational forces become extraordinarily intense.",
+
+  advantages: [
+    "Helps scientists study the limits of current physics.",
+    "Encourages the search for a unified theory of gravity.",
+    "Provides insight into black hole formation."
+  ],
+
+  limitations: [
+    "Cannot currently be observed directly.",
+    "Existing theories break down under singularity conditions.",
+    "Its true nature remains unknown."
+  ]
+},
+{
+  title: "Neutron Star",
+
+  explanation:
+    "A Neutron Star is the extremely dense core left behind after a massive star explodes in a supernova. Although only about 20 kilometers wide, it can contain more mass than the Sun.",
+
+  example:
+    "A teaspoon of material taken from a neutron star would weigh billions of tons on Earth due to its incredible density.",
+
+  advantages: [
+    "Provides insight into the behavior of matter under extreme pressure.",
+    "Helps scientists understand stellar evolution.",
+    "Produces valuable data through X-rays and radio waves."
+  ],
+
+  limitations: [
+    "Extremely difficult to observe in detail.",
+    "Conditions cannot be recreated on Earth.",
+    "Many internal properties remain uncertain."
+  ]
+},
+
+{
+  title: "Pulsar",
+
+  explanation:
+    "A Pulsar is a rapidly rotating neutron star that emits powerful beams of electromagnetic radiation from its magnetic poles. As the star spins, these beams sweep across space like a lighthouse, creating regular pulses that can be detected from Earth.",
+
+  example:
+    "Astronomers detect radio pulses from the Crab Pulsar every few milliseconds, allowing them to study the behavior of neutron stars.",
+
+  advantages: [
+    "Acts as a highly accurate natural cosmic clock.",
+    "Helps scientists test Einstein's theory of relativity.",
+    "Provides insight into the life cycle of massive stars."
+  ],
+
+  limitations: [
+    "Only pulsars with beams pointing toward Earth can be detected.",
+    "Their extreme environments are difficult to study directly.",
+    "Many properties remain under investigation."
+  ]
+},
+{
+  title: "Quasar",
+
+  explanation:
+    "A Quasar is one of the brightest objects in the universe. It is powered by a supermassive black hole at the center of a distant galaxy, where enormous amounts of matter fall into the black hole and release tremendous energy.",
+
+  example:
+    "Some quasars are so bright that they outshine all the stars in their host galaxy combined, making them visible from billions of light-years away.",
+
+  advantages: [
+    "Helps scientists study the early universe.",
+    "Provides evidence for supermassive black holes.",
+    "Can be observed across extremely large distances."
+  ],
+
+  limitations: [
+    "Most quasars are billions of light-years away.",
+    "Their formation is still being researched.",
+    "Detailed observations require powerful telescopes."
+  ]
+},
+{
+  title: "Supernova",
+
+  explanation:
+    "A Supernova is a massive explosion that occurs when a large star reaches the end of its life. During the explosion, enormous amounts of energy and heavy elements are released into space, helping form new stars and planets.",
+
+  example:
+    "The famous Supernova 1987A allowed astronomers to observe the explosion of a massive star in unprecedented detail.",
+
+  advantages: [
+    "Creates heavy elements such as gold and iron.",
+    "Triggers the formation of new stars.",
+    "Provides valuable information about stellar evolution."
+  ],
+
+  limitations: [
+    "Supernovae are unpredictable.",
+    "Nearby supernova explosions could affect planetary environments.",
+    "They occur relatively rarely within our galaxy."
+  ]
+},
+{
+  title: "Red Giant",
+
+  explanation:
+    "A Red Giant is a star that has exhausted the hydrogen fuel in its core and expanded to many times its original size. During this stage, the star becomes cooler on its surface but much larger in diameter.",
+
+  example:
+    "In about five billion years, the Sun is expected to become a Red Giant and expand beyond the orbit of Mercury.",
+
+  advantages: [
+    "Helps scientists understand stellar evolution.",
+    "Produces heavier elements through nuclear fusion.",
+    "Contributes material for future generations of stars."
+  ],
+
+  limitations: [
+    "Represents the final stages of a star's life.",
+    "Nearby planets may become uninhabitable.",
+    "Eventually collapses into another stellar object."
+  ]
+},
+{
+  title: "White Dwarf",
+
+  explanation:
+    "A White Dwarf is the small, dense remnant left behind after a low- or medium-mass star has exhausted its nuclear fuel. Although about the size of Earth, it contains a mass similar to that of the Sun.",
+
+  example:
+    "After the Sun completes its Red Giant phase, it will eventually become a White Dwarf and slowly cool over billions of years.",
+
+  advantages: [
+    "Provides information about the final stages of stellar evolution.",
+    "Helps estimate the age of star clusters.",
+    "Allows scientists to study matter under extreme density."
+  ],
+
+  limitations: [
+    "Produces no new energy through nuclear fusion.",
+    "Gradually cools over billions of years.",
+    "Its faint brightness makes observation difficult."
+  ]
+},
+{
+  title: "Nebula",
+
+  explanation:
+    "A Nebula is a giant cloud of gas and dust found in space. Nebulae are often called stellar nurseries because new stars are formed within them through gravitational collapse.",
+
+  example:
+    "The Orion Nebula is one of the most famous star-forming regions and can even be seen with small telescopes.",
+
+  advantages: [
+    "Acts as the birthplace of new stars and planetary systems.",
+    "Contains important chemical elements for future celestial bodies.",
+    "Provides insight into how galaxies evolve."
+  ],
+
+  limitations: [
+    "Star formation inside nebulae takes millions of years.",
+    "Many nebulae are extremely distant.",
+    "Dense dust clouds can block visible observations."
+  ]
+},
+{
+  title: "Hawking Radiation",
+
+  explanation:
+    "Hawking Radiation is a theoretical process proposed by physicist Stephen Hawking in which black holes slowly lose energy by emitting tiny particles. Over an extremely long period, this process could cause a black hole to evaporate completely.",
+
+  example:
+    "A small black hole would gradually emit Hawking Radiation and become lighter over billions or trillions of years until it eventually disappears.",
+
+  advantages: [
+    "Combines ideas from quantum mechanics and general relativity.",
+    "Provides insights into black hole physics.",
+    "Inspired new research in theoretical physics."
+  ],
+
+  limitations: [
+    "It has not yet been directly observed.",
+    "The radiation is extremely weak for large black holes.",
+    "Still remains a theoretical prediction."
+  ]
+},
+
+{
+  title: "Event Horizon",
+
+  explanation:
+    "The Event Horizon is the invisible boundary surrounding a black hole beyond which nothing—not even light—can escape its gravitational pull. Once an object crosses this boundary, escape becomes impossible.",
+
+  example:
+    "If a spacecraft accidentally crossed the Event Horizon of a black hole, it could never return because gravity would trap everything inside.",
+
+  advantages: [
+    "Helps scientists understand black hole behavior.",
+    "Defines the observable boundary of a black hole.",
+    "Important concept in astrophysics."
+  ],
+
+  limitations: [
+    "Cannot be directly observed.",
+    "Extreme gravity makes experiments impossible.",
+    "Many properties remain theoretical."
+  ]
+},
+
+{
+  title: "Dark Energy",
+
+  explanation:
+    "Dark Energy is the mysterious force believed to be causing the universe to expand at an accelerating rate. Scientists estimate that it makes up nearly 68% of the universe, although its true nature remains unknown.",
+
+  example:
+    "Astronomers observed distant galaxies moving away faster than expected, leading to the discovery of Dark Energy.",
+
+  advantages: [
+    "Explains the accelerating expansion of the universe.",
+    "Helps improve cosmological models.",
+    "One of the biggest areas of modern physics research."
+  ],
+
+  limitations: [
+    "Its origin remains unknown.",
+    "Cannot be directly detected.",
+    "Many competing theories still exist."
+  ]
+},
+
+{
+  title: "Dark Matter",
+
+  explanation:
+    "Dark Matter is an invisible form of matter that does not emit or reflect light but exerts gravitational force. Scientists believe it accounts for about 27% of the universe and helps hold galaxies together.",
+
+  example:
+    "Galaxies rotate much faster than visible matter alone can explain, suggesting that unseen Dark Matter is providing additional gravity.",
+
+  advantages: [
+    "Explains galaxy rotation speeds.",
+    "Supports current cosmological models.",
+    "Essential for understanding galaxy formation."
+  ],
+
+  limitations: [
+    "Has never been directly detected.",
+    "Its composition remains unknown.",
+    "Research is still ongoing."
+  ]
+},
+
+{
+  title: "Red Shift",
+
+  explanation:
+    "Red Shift is the phenomenon where light from distant galaxies shifts toward the red end of the spectrum because the galaxies are moving away from Earth. It is one of the strongest pieces of evidence that the universe is expanding.",
+
+  example:
+    "When astronomers observe a galaxy billions of light-years away, they often detect Red Shift, indicating that the galaxy is moving farther away.",
+
+  advantages: [
+    "Provides evidence for the expanding universe.",
+    "Helps estimate distances between galaxies.",
+    "Supports the Big Bang Theory."
+  ],
+
+  limitations: [
+    "Requires highly sensitive instruments.",
+    "Interpretation can be complex.",
+    "Affected by gravitational effects."
+  ]
+},
+
+{
+  title: "Blue Shift",
+
+  explanation:
+    "Blue Shift occurs when an object moves toward an observer, causing its light waves to become shorter and shift toward the blue end of the spectrum. It is the opposite of Red Shift.",
+
+  example:
+    "The Andromeda Galaxy exhibits Blue Shift because it is slowly moving toward the Milky Way.",
+
+  advantages: [
+    "Helps determine object motion in space.",
+    "Useful in astronomy and astrophysics.",
+    "Supports Doppler effect observations."
+  ],
+
+  limitations: [
+    "Only occurs for approaching objects.",
+    "Requires precise spectral measurements.",
+    "Less commonly observed than Red Shift."
+  ]
+},
+
+{
+  title: "Gravitational Waves",
+
+  explanation:
+    "Gravitational Waves are ripples in space-time created when massive objects such as black holes or neutron stars collide. Albert Einstein predicted them in 1916, and they were first detected in 2015.",
+
+  example:
+    "Two merging black holes produced gravitational waves that were detected by the LIGO observatory, confirming Einstein's prediction.",
+
+  advantages: [
+    "Provides a new way to observe the universe.",
+    "Confirms Einstein's General Relativity.",
+    "Helps study black hole collisions."
+  ],
+
+  limitations: [
+    "Signals are extremely weak.",
+    "Detection requires highly advanced equipment.",
+    "Observations remain technically difficult."
+  ]
+},
+
+{
+  title: "Neutron Star",
+
+  explanation:
+    "A Neutron Star is the extremely dense core left behind after a massive star explodes as a supernova. A teaspoon of neutron star material would weigh billions of tons on Earth.",
+
+  example:
+    "Astronomers observe rapidly spinning neutron stars, known as pulsars, by detecting their regular radio signals.",
+
+  advantages: [
+    "Helps scientists study matter under extreme conditions.",
+    "Provides insights into stellar evolution.",
+    "Useful for testing theories of gravity."
+  ],
+
+  limitations: [
+    "Very difficult to observe directly.",
+    "Extreme environments limit scientific measurements.",
+    "Many internal properties remain uncertain."
+  ]
+},
+  ],
+Finance: [
+{ title: "Inflation" },
+
+  { title: "Deflation" },
+
+  { title: "Compound Interest" },
+
+  { title: "Stock Market" },
+
+  { title: "Mutual Funds" },
+
+  { title: "ETF (Exchange Traded Fund)" },
+
+  { title: "Bull Market" },
+
+  { title: "Bear Market" },
+
+  { title: "Diversification" },
+
+  { title: "Liquidity" },
+
+  { title: "Assets vs Liabilities" },
+
+  { title: "Market Capitalization" },
+
+  { title: "Credit Score" },
+
+  { title: "Risk Management" },
+
+  { title: "Cryptocurrency" },
+
+  { title: "Blockchain" },
+
+  { title: "NFT" },
+
+  { title: "Budgeting" },
+
+  { title: "Emergency Fund" },
+
+  { title: "Passive Income" }
+],
+
+Forensics: [
+
+{
+title: "Fingerprint Analysis",
+
+explanation:
+"Fingerprint analysis is the process of identifying individuals by examining the unique ridge patterns present on their fingertips. Since no two people have identical fingerprints, investigators compare prints collected from crime scenes with those stored in fingerprint databases to identify suspects or victims.",
+
+example:
+"Police recover fingerprints from a broken window during a burglary. After comparing them with a national fingerprint database, they identify the person who entered the house."
+},
+
+{
+title: "DNA Profiling",
+
+explanation:
+"DNA profiling is a forensic technique used to identify individuals by analyzing their genetic material. DNA can be collected from blood, saliva, hair roots, skin cells, or other biological evidence. Because every person's DNA is unique except for identical twins, it is considered one of the strongest forms of forensic evidence.",
+
+example:
+"A strand of hair found at a crime scene contains DNA that matches a suspect, helping investigators connect the individual to the crime."
+},
+
+{
+title: "Blood Spatter Analysis",
+
+explanation:
+"Blood spatter analysis studies the size, shape, and distribution of bloodstains at a crime scene. By examining these patterns, forensic experts can determine how the blood was produced, the direction of impact, and sometimes even the position of the victim and attacker.",
+
+example:
+"Blood droplets on a wall reveal that the victim was struck while standing rather than lying on the floor."
+},
+
+{
+title: "Ballistics",
+
+explanation:
+"Ballistics is the scientific study of firearms, bullets, and the motion of projectiles. Forensic ballistics helps determine which weapon fired a bullet by comparing microscopic markings left on bullets and cartridge cases.",
+
+example:
+"A bullet recovered from a crime scene is matched to a handgun owned by the suspect through microscopic examination."
+},
+
+{
+title: "Forensic Toxicology",
+
+explanation:
+"Forensic toxicology involves detecting drugs, alcohol, poisons, and other toxic substances in the human body. Toxicologists analyze blood, urine, or tissue samples to determine whether chemicals contributed to injury or death.",
+
+example:
+"An autopsy reveals high levels of poison in a victim's bloodstream, helping investigators determine that the death was a homicide."
+},
+
+{
+title: "Digital Forensics",
+
+explanation:
+"Digital forensics is the process of collecting, preserving, and analyzing information from electronic devices such as computers, smartphones, and hard drives. It helps investigators recover deleted files, emails, browsing history, and other digital evidence.",
+
+example:
+"A deleted message recovered from a suspect's laptop becomes important evidence during a cybercrime investigation."
+},
+
+{
+title: "Cyber Forensics",
+
+explanation:
+"Cyber forensics focuses specifically on investigating crimes involving computer networks, hacking, malware, identity theft, and online fraud. Specialists examine network logs, server records, and internet activity to identify attackers.",
+
+example:
+"Investigators trace a ransomware attack by analyzing server logs and identifying the attacker's IP address."
+},
+
+{
+title: "Forensic Anthropology",
+
+explanation:
+"Forensic anthropology applies the study of human bones to identify unknown individuals. Experts estimate age, sex, ancestry, height, and possible cause of death using skeletal remains.",
+
+example:
+"Only skeletal remains are discovered in a forest. A forensic anthropologist determines the victim's approximate age and gender from the bones."
+},
+
+{
+title: "Forensic Odontology",
+
+explanation:
+"Forensic odontology uses dental records to identify unknown individuals. Teeth are highly durable and often survive fires or decomposition, making dental comparisons valuable for victim identification.",
+
+example:
+"A victim of a fire is identified by matching dental X-rays with records from a local dentist."
+},
+
+{
+title: "Crime Scene Investigation",
+
+explanation:
+"Crime Scene Investigation (CSI) is the systematic examination of a crime scene to collect, preserve, and document physical evidence. Investigators carefully photograph the scene, collect fingerprints, DNA, footprints, and other evidence while ensuring nothing becomes contaminated.",
+
+example:
+"Investigators photograph an entire room before collecting fingerprints, blood samples, and shoe prints from the floor."
+},
+
+{
+title: "Autopsy",
+
+explanation:
+"An autopsy is a detailed medical examination of a deceased person's body to determine the cause, manner, and time of death. It is performed by a forensic pathologist using scientific methods.",
+
+example:
+"An autopsy confirms that a victim died from internal bleeding caused by a stab wound."
+},
+
+{
+title: "Trace Evidence",
+
+explanation:
+"Trace evidence refers to tiny materials transferred during contact between people, objects, or environments. Examples include hair, fibers, glass fragments, paint chips, soil, and gunshot residue.",
+
+example:
+"Blue carpet fibers found on a suspect's clothing match the carpet inside the victim's house."
+},
+
+{
+title: "Hair Analysis",
+
+explanation:
+"Hair analysis compares the microscopic characteristics of hair collected from crime scenes. While hair alone cannot always identify a person, it can indicate species, body location, and whether the hair was naturally shed or forcibly removed.",
+
+example:
+"Hair found inside a getaway vehicle matches the victim's hair under microscopic examination."
+},
+
+{
+title: "Fiber Evidence",
+
+explanation:
+"Fiber evidence examines tiny threads transferred between clothing, furniture, carpets, or vehicles during physical contact. Matching fibers can help connect suspects, victims, and crime scenes.",
+
+example:
+"Red sweater fibers found on a victim match fibers collected from the suspect's clothing."
+},
+
+{
+title: "Document Examination",
+
+explanation:
+"Forensic document examination determines whether documents have been forged, altered, or counterfeited. Experts analyze handwriting, ink, paper, printing methods, and security features.",
+
+example:
+"A forged contract is detected because the signature and ink differ from authentic documents."
+},
+
+{
+title: "Handwriting Analysis",
+
+explanation:
+"Handwriting analysis compares writing characteristics such as letter formation, spacing, pressure, and slant to determine whether two writing samples were produced by the same person.",
+
+example:
+"A ransom note is compared with a suspect's notebook, revealing several matching handwriting characteristics."
+},
+
+{
+title: "Glass Fracture Analysis",
+
+explanation:
+"Glass fracture analysis studies broken glass to determine how it shattered, the direction of impact, and the sequence of multiple impacts. It helps reconstruct accidents and crimes involving windows or vehicles.",
+
+example:
+"Investigators determine that a bullet entered a building from outside by studying the fracture pattern in the broken window."
+},
+
+{
+title: "Forensic Entomology",
+
+explanation:
+"Forensic entomology studies insects found on decomposing bodies. Different insects appear at different stages of decomposition, allowing scientists to estimate the postmortem interval and sometimes determine whether a body has been moved.",
+
+example:
+"The presence of certain fly larvae indicates that a victim died approximately five days before discovery."
+},
+
+{
+title: "Chain of Custody",
+
+explanation:
+"Chain of custody is the documented record showing who collected, handled, transported, tested, and stored each piece of evidence. Maintaining an unbroken chain ensures evidence remains authentic and legally admissible in court.",
+
+example:
+"A blood sample is labeled, sealed, signed, and documented every time it changes hands from the crime scene to the forensic laboratory."
+},
+
+{
+title: "Postmortem Interval (PMI)",
+
+explanation:
+"The postmortem interval is the estimated amount of time that has passed since a person died. Forensic experts calculate PMI using body temperature, rigor mortis, insect activity, decomposition, and environmental conditions.",
+
+example:
+"Based on body temperature and insect evidence, investigators estimate that the victim died between 24 and 36 hours before being found."
+}
+
+]
+  
 };
 
 export default topics;

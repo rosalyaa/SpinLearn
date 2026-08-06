@@ -13,7 +13,7 @@ radial-gradient(circle at 82% 22%,rgba(130,90,255,.25),transparent 30%),
 radial-gradient(circle at 50% 100%,rgba(0,80,130,.22),transparent 38%),
 linear-gradient(135deg,#07131E,#082F39,#1A1644);
 
-color:white;
+color:rgb(255, 255, 255);
 
 min-height:100vh;
 
@@ -35,27 +35,13 @@ padding:30px;
 
 }
 
-.title{
-
-font-family: "DM Serif Display", serif;
-
-font-size:5rem;
-
-font-weight:700;
-
-letter-spacing:-2px;
-
-color:#F7F3ED;
-
-}
-
 .subtitle{
 
 margin-top:15px;
 
 font-size:18px;
 
-color:#D6D6D6;
+color:#ffffff;
 
 margin-bottom:35px;
 
@@ -74,10 +60,10 @@ margin-bottom:35px;
 
     border-radius: 28px;
 
-    padding: 35px;
+    padding: 15px;
 
     box-shadow:
-        0 20px 60px rgba(0,0,0,.35);
+        0 20px 50px rgba(0,0,0,.35);
 
 }
 
@@ -95,15 +81,15 @@ margin-bottom:25px;
 
 .tabs button{
 
-padding:14px 30px;
+padding:10px 22px;
 
 border:none;
 
-border-radius:40px;
+border-radius:30px;
 
 background:rgba(255,255,255,.06);
 
-color:white;
+color:rgb(255, 255, 255);
 
 cursor:pointer;
 
@@ -131,7 +117,7 @@ text-align:center;
 
 width:100%;
 
-padding:16px 18px;
+padding:12px 15px;
 
 margin-top:25px;
 
@@ -141,9 +127,9 @@ border:1px solid rgba(255,255,255,.08);
 
 background:rgba(255,255,255,.06);
 
-color:white;
+color:rgb(255, 255, 255);
 
-font-size:16px;
+font-size:14px;
 
 font-family:"Manrope",sans-serif;
 
@@ -173,7 +159,7 @@ box-shadow:0 0 18px rgba(110,231,183,.25);
 
 margin-top:45px;
 
-font-size:13px;
+font-size:10px;
 
 letter-spacing:4px;
 
@@ -189,7 +175,7 @@ text-transform:uppercase;
 
 font-family:"DM Serif Display",serif;
 
-font-size:45px;
+font-size:70px;
 
 font-weight:400;
 
@@ -205,7 +191,7 @@ color:white;
 
 .topic {
     font-family: "DM Serif Display", serif;
-    font-size: 54px;
+    font-size: 50px;
     color: #ffffff;
     margin: 25px 0;
     letter-spacing: -1px;
@@ -216,7 +202,7 @@ color:white;
 
 display:flex;
 
-gap:20px;
+gap:70px;
 
 margin-top:45px;
 
@@ -225,13 +211,13 @@ margin-top:45px;
 .spin,
 .explain{
 
-padding:15px 34px;
+padding:12px 30px;
 
 border:none;
 
 border-radius:14px;
 
-font-size:16px;
+font-size:12px;
 
 font-weight:600;
 
@@ -254,13 +240,13 @@ justify-content:center;
 
 gap:10px;
 
-padding:16px 34px;
+padding:12px 30px;
 
 border:none;
 
 border-radius:14px;
 
-font-size:16px;
+font-size:15px;
 
 font-weight:600;
 
@@ -318,7 +304,7 @@ box-shadow:0 15px 30px rgba(0,0,0,.3);
 
     outline:none;
 
-    font-size:16px;
+    font-size:15px;
 
     font-family:"Manrope",sans-serif;
 
@@ -392,39 +378,28 @@ color:#94a3b8;
 
 position:relative;
 
-width:100%;
+width:25%;
 
-margin-top:20px;
+margin-top:1px;
 
 }
 
 .dropdown-selected{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-display:flex;
+    padding:5px 10px;   /* smaller height */
+    font-size:15px;
 
-justify-content:space-between;
+    border-radius:12px;
 
-align-items:center;
-
-padding:10px 20px;
-
-border-radius:16px;
-
-background:rgba(255,255,255,.08);
-
-cursor:pointer;
-
-font-size:16px;
-
-font-weight:500;
-
-color:white;
-
-border:1px solid rgba(255,255,255,.08);
-
-transition:.3s;
-
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.08);
+    cursor:pointer;
+    transition:.3s;
 }
+
 
 .dropdown-selected:hover{
 
@@ -460,7 +435,7 @@ animation:fadeDown .25s ease;
 
 .dropdown-item{
 
-padding:16px 20px;
+padding:14px 20px;
 
 cursor:pointer;
 
@@ -472,6 +447,10 @@ transition:.25s;
 
 background:#0F766E;
 
+}
+
+.dropdown-icon{
+    font-size:14px;   /* 12px for even smaller */
 }
 
 @keyframes fadeDown{
@@ -526,7 +505,7 @@ transform:translateY(0);
 
 .hero{
 
-margin-bottom:45px;
+margin-bottom:30px;
 
 text-align:center;
 
@@ -536,7 +515,7 @@ text-align:center;
 
 display:inline-block;
 
-padding:8px 18px;
+padding:8px 15px;
 
 border-radius:30px;
 
@@ -560,13 +539,13 @@ border:1px solid rgba(255,255,255,.08);
 
 font-family:"DM Serif Display",serif;
 
-font-size:72px;
+font-size:30px;
 
-font-weight:400;
+font-weight:200;
 
 color:white;
 
-margin-bottom:18px;
+margin-bottom:5px;
 
 letter-spacing:-2px;
 
@@ -578,7 +557,7 @@ max-width:720px;
 
 margin:auto;
 
-font-size:18px;
+font-size:15px;
 
 line-height:1.8;
 
@@ -688,7 +667,7 @@ color:#d8dee9;
 
 margin-top:10px;
 
-padding:25px;
+padding:15px 30px;
 
 width:300px;
 
@@ -750,7 +729,7 @@ gap:15px;
 
 .timer-btn{
 
-padding:10px 26px;
+padding:8px 26px;
 
 border:none;
 
@@ -758,7 +737,7 @@ border-radius:10px;
 
 cursor:pointer;
 
-font-size:16px;
+font-size:17px;
 
 font-weight:600;
 
@@ -788,13 +767,13 @@ background:#5a616b;
 
 .progress-card{
 
-width:720px;
+width:750px;
 
-max-width:95%;
+max-width:100%;
 
 margin:30px auto;
 
-padding:24px;
+padding:20px;
 
 border-radius:22px;
 
@@ -888,4 +867,51 @@ opacity:.7;
 
 cursor:default;
 
+}
+
+.logo{
+    font-family: "DM Serif Display", serif;
+    font-size: 2rem;      /* adjust as you like */
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.hero{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+.logo{
+    font-family:"DM Serif Display",serif;
+    font-size:48px;
+    color:white;
+    font-weight:700;
+    letter-spacing:-1px;
+    margin-bottom:2px;
+}
+
+.github-link{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    color:#B7C3D0;
+    text-decoration:none;
+
+    font-size:15px;
+    font-weight:500;
+
+    transition:.3s;
+}
+
+.github-link:hover{
+    color:#4F8CFF;
+    transform:translateY(-2px);
+}
+
+.github-link svg{
+    font-size:18px;
 }
