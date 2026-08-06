@@ -85,6 +85,7 @@ SpinLearn/
 
 
 <h2>5. How It Works:</h2>
+
 - The user selects the Tech category from the dropdown.
 <br>
 - Clicking Spin Topic randomly displays a technical concept.
@@ -100,19 +101,20 @@ SpinLearn/
 
 
 <h2>6. Future Improvements</h2>
-* User Authentication: Allow users to create accounts and save their learning progress.
+
+- User Authentication: Allow users to create accounts and save their learning progress.
 <br>
-* Difficulty Levels: Categorize topics into Beginner, Intermediate, and Advanced.
+- Difficulty Levels: Categorize topics into Beginner, Intermediate, and Advanced.
 <br>
-* Quiz Mode: Add quizzes after each topic to reinforce learning.
+- Quiz Mode: Add quizzes after each topic to reinforce learning.
 <br>
-* Bookmarks: Let users save favorite topics for later revision.
+- Bookmarks: Let users save favorite topics for later revision.
 <br>
-* More Categories: Expand beyond Tech with topics like Cybersecurity, Cloud Computing, and Data Science.
+- More Categories: Expand beyond Tech with topics like Cybersecurity, Cloud Computing, and Data Science.
 <br>
-* Learning Streaks: Motivate users with daily learning streaks and achievements.
+- Learning Streaks: Motivate users with daily learning streaks and achievements.
 <br>
-* AI-Powered Explanations: Generate personalized explanations and examples using AI.
+- AI-Powered Explanations: Generate personalized explanations and examples using AI.
 
 
 <h2>7. Learning Outcomes</h2>
