@@ -36,27 +36,27 @@ SpinLearn/
    <br>
       (a) assets/
    <br>
-         (i) images/
+         &nbsp;&nbsp;(i) images/
    <br>
       (b) components/
    <br>
-         (i) Header.jsx
+         &nbsp;&nbsp;(i) Header.jsx
    <br>
-         (ii) TopicCard.jsx
+         &nbsp;&nbsp;(ii) TopicCard.jsx
    <br>
-         (iii) ExplanationCard.jsx
+         &nbsp;&nbsp;(iii) ExplanationCard.jsx
    <br>
-         (iv) BrowseTopics.jsx
+         &nbsp;&nbsp;(iv) BrowseTopics.jsx
    <br>
-         (v) CategoryDropdown.jsx
+         &nbsp;&nbsp;(v) CategoryDropdown.jsx
    <br>
-         (vi) Timer.jsx
+         &nbsp;&nbsp;(vi) Timer.jsx
    <br>
-         (vii) ProgressBar.jsx
+         &nbsp;&nbsp;(vii) ProgressBar.jsx
    <br>
       (c) data
    <br>
-         (i) topics.js
+         &nbsp;&nbsp;(i) topics.js
    <br>
       (d) App.jsx
    <br>
