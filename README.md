@@ -38,8 +38,7 @@ SpinLearn/
    <br>
          &nbsp;&nbsp;(i) images/
    <br>
-      (b) components/
-   <br>
+      (b) components/<br>
          &nbsp;&nbsp;(i) Header.jsx
    <br>
          &nbsp;&nbsp;(ii) TopicCard.jsx
