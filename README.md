@@ -81,8 +81,6 @@ SpinLearn/
 - Open your web browser and visit: [https://spinlearn.vercel.app](https://spinlearn.vercel.app)
 
 
-
-
 <h2>5. How It Works:</h2>
 - The user selects the Tech category from the dropdown.
 <br>
