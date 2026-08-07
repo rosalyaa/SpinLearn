@@ -53,6 +53,10 @@ SpinLearn/
    <br>
          &nbsp;&nbsp;&nbsp;&nbsp;(vii) ProgressBar.jsx
    <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;(viii) ChatBot.jsx
+   <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;(ix) ChatPopup.jsx
+   <br>
       (c) data
    <br>
          &nbsp;&nbsp;&nbsp;&nbsp;(i) topics.js
@@ -63,12 +67,12 @@ SpinLearn/
    <br>
       (f) App.css
    <br>
-3. .gitignore
-4. index.html
-5. package.json
-6. package-lock.json
-7. vite.config.js
-8. README.md
+4. .gitignore
+5. index.html
+6. package.json
+7. package-lock.json
+8. vite.config.js
+9. README.md
 
              
 
